@@ -1,0 +1,26 @@
+{
+  "main_executions": 121500,
+  "parameter_cells_including_rule": 12150,
+  "runs_per_cell": 10,
+  "temporal_trajectories": 201,
+  "temporal_observations": 603,
+  "selected_triplets": 67,
+  "final_agent_rows": 201000,
+  "final_edge_rows": 682126,
+  "checks_passed": [
+    "Unique execution identifiers and expected factorial cell counts",
+    "All temporal baseline records match the main campaign",
+    "All 201 checkpoint exports match saved sizes, cultural metrics, edge states, clustering, connected components and cultural domains",
+    "All 201 distance histograms match the saved data; each represents 499500 unordered distinct agent pairs",
+    "All polarization values match saved analysis tables",
+    "Strategy means and temporal status counts match published analysis tables",
+    "The largest culture exceeds the largest domain in 60 cases, including 47 with F=2; largest domain equals largest component in all 201 final states",
+    "Gzip decompression preserves original main campaign CSV bytes"
+  ],
+  "not_performed": [
+    "No new simulations",
+    "No reconstruction of missing network or cultural histories",
+    "No publication of simulation or analysis source code"
+  ],
+  "scope": "Validation of packaging and consistency with existing saved results; not an independent validation of the full simulation implementation."
+}

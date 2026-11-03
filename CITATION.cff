@@ -1,0 +1,13 @@
+cff-version: 1.2.0
+message: "Please cite this dataset when using these data."
+type: dataset
+title: "Axelrod Culture 2: data for selective rewiring, clustering and cultural diversity in an adaptive Axelrod model"
+authors:
+  - family-names: Perez
+    given-names: Yuri
+  - family-names: Schimit
+    given-names: Pedro Henrique Triguis
+    orcid: "https://orcid.org/0000-0002-5474-6145"
+version: 1.0.0
+date-released: 2026-11-03
+url: "https://github.com/labdinpop/axelrod-culture-2"

@@ -1,0 +1,7 @@
+metric,changed,max_abs,mean_abs
+clustering,6,0.005869038722810194,5.0184395404597505e-05
+giant_component_size,0,0.0,0.0
+num_components,0,0.0,0.0
+M,0,0.0,0.0
+culture_entropy,34,3.109060420678873,0.15537684975991115
+largest_culture_frac,33,0.843,0.06240298507462686

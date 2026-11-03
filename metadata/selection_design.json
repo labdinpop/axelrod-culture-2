@@ -1,0 +1,23 @@
+{
+  "trajectories": 201,
+  "parameter_triplets": 67,
+  "trajectories_per_rule": 67,
+  "triplets_by_selection_group": {
+    "active": 23,
+    "zero_only": 22,
+    "absorbed": 22
+  },
+  "initial_trajectories": 90,
+  "additional_trajectories": 111,
+  "initial_selection_seed": 20261021,
+  "extension_selection_seed": 20261022,
+  "selection": "Stratified selection from executions already in the main campaign, combining pseudo-random sampling with preference for less represented parameter values. Entropy, polarization and domain size were not used for selection.",
+  "triplet": "Three executions share m, F, q, R, alpha and run_id, one per rewiring rule; their initial networks and stochastic updates are independent.",
+  "groups": {
+    "absorbed": "All three executions have no discordant edges at 5 million attempts.",
+    "zero_only": "No execution has active edges, but at least one has zero-overlap edges.",
+    "active": "At least one execution has active edges at 5 million attempts."
+  },
+  "representativeness": "This deliberately selected sample does not estimate outcome frequencies in the full parameter grid.",
+  "source_metadata_note": "The original expanded selection metadata describes the 37 added triplets (12 absorbed, 12 zero_only, 13 active). The complete 67-triplet sample includes the original 30 triplets and totals 22, 22 and 23."
+}

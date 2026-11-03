@@ -1,0 +1,5 @@
+{
+  "file_inventory": "Hashes, byte sizes and row counts cover every content file except file_inventory.csv and this note; excluding the inventory itself avoids a recursive checksum definition.",
+  "seed_handling": "Preserve all seed values as text.",
+  "compression": "All .gz files are UTF-8 CSV compressed using standard gzip."
+}

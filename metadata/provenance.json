@@ -1,0 +1,79 @@
+{
+  "prepared": "2026-11-03",
+  "sources": "Existing local results for the revised manuscript; no simulation was rerun.",
+  "entries": [
+    {
+      "file": "main_campaign/results.csv.gz",
+      "source_sha256": "67f251ec0224b1a94c53ef8fa9859ca9c9beb858d0e03157a9aac99a82b4c96b",
+      "operation": "lossless gzip compression; original CSV bytes preserved"
+    },
+    {
+      "file": "metadata/main_campaign_manifest.json",
+      "source_sha256": "5016cf584a69d58e6f0d9e94d7620d987dbe12f606a5a075e32878cf4bf7e661",
+      "operation": "copied without changes"
+    },
+    {
+      "file": "metadata/temporal_manifest.json",
+      "source_sha256": "dc25fa1230fa63ef908a143b0ec72715994037a9e6c49070202055e5dac97af3",
+      "operation": "copied without changes"
+    },
+    {
+      "file": "temporal_extension/observations.csv",
+      "source_sha256": "78f2a9710442d44e98d59d52b2511d2a131668c7fa5dca21605fbe91052bbe90",
+      "operation": "copied without changes"
+    },
+    {
+      "file": "temporal_extension/selection.csv",
+      "source_sha256": [
+        "654dd63ada714e1dba561a8876153d5ed77ba2c0c4bc3a58211bfb949bffd93f",
+        "8012b14f4230bec5255593d0bd833926cbe30caa36457aa25fa9a2094d129d99",
+        "78f2a9710442d44e98d59d52b2511d2a131668c7fa5dca21605fbe91052bbe90"
+      ],
+      "operation": "selected identifiers and parameters; source batches labeled in English; individual baseline regime derived from saved edge counts"
+    },
+    {
+      "file": "derived/strategy_means.csv",
+      "source_sha256": "66bac5d86c27e2797ae12e233d74fdd7025ea4efff79f852f3999f11aa42b5a5",
+      "operation": "copied without changes"
+    },
+    {
+      "file": "derived/overall_metrics.csv",
+      "source_sha256": "62fc0b45c788d86dc24aeeacae61a2b639ee808a7242e6e4671513c890456dcc",
+      "operation": "text labels translated or unnamed metric column labeled; numerical values preserved"
+    },
+    {
+      "file": "derived/final_state_metrics.csv",
+      "source_sha256": "1b9404533add90e137fd5bb4cdec65de672513306228ee310fdfba37c7e0a89d",
+      "operation": "copied without changes"
+    },
+    {
+      "file": "derived/cultural_distance_metrics.csv",
+      "source_sha256": "c6ee289cd565cbac5d4a3223e6eec1f42b6592c763a5285ca302652ee2cd386e",
+      "operation": "text labels translated or unnamed metric column labeled; numerical values preserved"
+    },
+    {
+      "file": "derived/pair_distance_distributions.csv",
+      "source_sha256": "33e93ec526c9863fa5dda015bdc37849972f2c3a5c8c27116a04ca017f3a2b0f",
+      "operation": "copied without changes"
+    },
+    {
+      "file": "derived/temporal_status.csv",
+      "source_sha256": "bf3c7391ba34262c9d526afd4b3c938add960b5c76936231f3a170661dab78ce",
+      "operation": "copied without changes"
+    },
+    {
+      "file": "derived/temporal_changes.csv",
+      "source_sha256": "ed67e177ada58a5c8cdc5bf2ab5fde9b28b26d664c7df77d90f3cfc151b42f86",
+      "operation": "text labels translated or unnamed metric column labeled; numerical values preserved"
+    },
+    {
+      "file": "final_states/agents.csv.gz; final_states/edges.csv.gz; final_states/index.csv",
+      "operation": "lossless export of integer cultural traits and undirected graph edges from all 201 final local checkpoints; checkpoint hashes are in index.csv; no simulation executed"
+    },
+    {
+      "file": "derived/parameter_effects.csv; derived/entropy_by_alpha.csv",
+      "source_sha256": "67f251ec0224b1a94c53ef8fa9859ca9c9beb858d0e03157a9aac99a82b4c96b",
+      "operation": "export of the means and conditional Monte Carlo intervals defined in the manuscript figure-generation procedure; no new simulations"
+    }
+  ]
+}
